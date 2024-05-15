@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../output.css" rel="stylesheet">
+    <title>UTP</title>
+</head>
+
+<body>
+    <nav class="bg-black w-full h-16  flex md:flex-row items-center uppercase font-bold font-mono gap-4 justify-around overflow-hidden">
+        <div class="w-full md:w-1/2 flex justify-between">
+            <a href="" class="p-3 bg-blue-400 rounded-lg">Inicio</a>
+            <a href="" class="p-3 bg-blue-400 rounded-lg">Información</a>
+            <a href="" class="p-3 bg-blue-400 rounded-lg">¡Únete!</a>
+        </div>
+        <div id="usuario" class=" md:flex items-center gap-3">
+        </div>
+    </nav>
+    
+    <main  class="w-full h-screenc p-20 max-md:p-3">
+        <p class="mt-6 mb-6 text-black text-3xl text-center font-bold">MAYA DE INGENIERIA DE SISTEMA</p>
+
+        <div class="relative group rounded-lg  bg-gray-50 overflow-hidden before:absolute before:w-12 before:h-12 before:content[''] before:right-0 before:bg-violet-500 before:rounded-full before:blur-lg before:[box-shadow:-60px_20px_10px_10px_#F9B0B9]">
+            <svg
+                y="0"
+                xmlns="http://www.w3.org/2000/svg"
+                x="0"
+                width="100"
+                viewBox="0 0 100 100"
+                preserveAspectRatio="xMidYMid meet"
+                height="100"
+                class="w-8 h-8 absolute right-0 -rotate-45 stroke-pink-300 top-1.5 group-hover:rotate-0 duration-300"
+            >
+                <path
+                    stroke-width="4"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                    fill="none"
+                    d="M60.7,53.6,50,64.3m0,0L39.3,53.6M50,64.3V35.7m0,46.4A32.1,32.1,0,1,1,82.1,50,32.1,32.1,0,0,1,50,82.1Z"
+                    class="svg-stroke-primary"
+                ></path>
+            </svg>
+            <select title="opciones" id="opciones"  class="appearance-none hover:placeholder-shown:bg-emerald-500 relative text-pink-400 bg-transparent ring-0 outline-none border border-neutral-500  placeholder-violet-700 text-lg font-bold rounded-lg focus:ring-violet-500 focus:border-violet-500 block w-full p-3 ">
+                <option value="">Todos</option>
+                <option value="01">Ciclo 01</option>
+                <option value="02">Ciclo 02</option>
+                <option value="03">Ciclo 03</option>
+                <option value="04">Ciclo 04</option>
+                <option value="05">Ciclo 05</option>
+                <option value="06">Ciclo 06</option>
+                <option value="07">Ciclo 07</option>
+                <option value="08">Ciclo 08</option>
+                <option value="09">Ciclo 09</option>
+                <option value="10">Ciclo 10</option>
+            </select>
+        </div>
+    
+        <div id="container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 ">
+            
+        </div>
+    </main>
+
+    <script>
+        const usuarioGuardado = localStorage.getItem('usuario');
+        if (usuarioGuardado) {
+
+            const usuario = JSON.parse(usuarioGuardado);
+            const nombreUsuario = usuario.nombre,
+            correo = usuario.email;
+
+            const nombreUsuarioElemento = document.createElement('p'),
+            correoUsuarioElemento = document.createElement('a');
+
+            nombreUsuarioElemento.textContent = nombreUsuario;
+            correoUsuarioElemento.textContent = correo;
+
+            nombreUsuarioElemento.classList.add('p-3', 'text-3xl', 'text-orange-400', 'rounded-lg', 'tracking-widest', 'max-md:hidden');
+            correoUsuarioElemento.classList.add('p-1', 'text-xl', 'text-orange-500', 'rounded-lg', 'bg-white', 'lowercase','max-md:hidden');
+
+            document.getElementById('usuario').appendChild(nombreUsuarioElemento);
+            document.getElementById('usuario').appendChild(correoUsuarioElemento);
+
+            const botonBorrarLocalStorage = document.createElement('button');
+            botonBorrarLocalStorage.textContent = 'Cerrar Sesión';
+            botonBorrarLocalStorage.classList.add('p-3', 'bg-red-500', 'text-white', 'rounded-lg');
+
+            botonBorrarLocalStorage.addEventListener('click', function () {
+                localStorage.removeItem('usuario');
+                location.reload();
+                window.location.href = '/src/app/form/login.html';
+            });
+
+            document.getElementById('usuario').appendChild(botonBorrarLocalStorage);
+        }
+
+    </script>
+
+    <script src="../js/app.js"></script>
+    <script src="../api/auth.js"></script>
+</body>
+
+</html>

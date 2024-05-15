@@ -1,0 +1,132 @@
+[
+  {
+    "ciclo": "01",
+    "spanText": "ciclo",
+    "listaTextos": [
+      "INTRODUCCIÓN A LA VIDA UNIVERSITARIA: INGENIERIA DE TI Y TELECOMUNICACIONES (P)",
+      "INDIVIDUO Y MEDIO AMBIENTE (V)",
+      "INGLÉS 1 (V)",
+      "COMPRENSIÓN Y REDACCION DE TEXTOS 1 (P)",
+      "INTRODUCCIÓN A LA MATEMÁTICA PARA INGENIERÍA (P)",
+      "QUÍMICA GENERAL (P)",
+      "LABORATORIO DE QUÍMICA GENERAL (P)"
+    ]
+  },
+  {
+    "ciclo": "02",
+    "spanText": "ciclo",
+    "listaTextos": [
+      "INTRODUCCIÓN A LAS TIC (P)",
+      "CÁLCULO APLICADO A LA FÍSICA 1 (P)",
+      "INGLÉS 2 (V)",
+      "COMPRENSIÓN Y REDACCIÓN DE TEXTOS 2 (P)",
+      "PRINCIPIOS DE ALGORITMOS (P)",
+      "MATEMÁTICA PARA INGENIEROS 1 (P)",
+      "LABORATORIO DE CÁLCULO APLICADO A LA FÍSICA 1 (P)"
+    ]
+  },
+  {
+    "ciclo": "03",
+    "spanText": "ciclo",
+    "listaTextos": [
+      "CÁLCULO APLICADO A LA FÍSICA 2 (P)",
+      "INGLÉS 3 (V)",
+      "CIUDADANÍA Y REFLEXIÓN ÉTICA (V)",
+      "TEORÍA GENERAL DE SISTEMAS (P)",
+      "TALLER DE PROGRAMACIÓN (P)",
+      "ESTADÍSTICA DESCRIPTIVA Y PROBABILIDADES (P)",
+      "MATEMÁTICA PARA INGENIEROS 2 (P)",
+      "LABORATORIO DE CÁLCULO APLICADO A LA FÍSICA 2 (P)"
+    ]
+  },
+  {
+    "ciclo": "04",
+    "spanText": "ciclo",
+    "listaTextos": [
+      "INGLÉS 4 (V)",
+      "PROBLEMAS Y DESAFÍOS EN EL PERÚ ACTUAL (P)",
+      "INVESTIGACIÓN ACADÉMICA (V)",
+      "PROGRAMACIÓN ORIENTADA A OBJETOS (P)",
+      "ARQUITECTURA DE COMPUTADORAS (P)",
+      "BASE DE DATOS (P)",
+      "ESTADÍSTICA INFERENCIAL (P)"
+    ]
+  },
+  {
+    "ciclo": "05",
+    "spanText": "ciclo",
+    "listaTextos": [
+      "TALLER DE PROGRAMACIÓN WEB (P)",
+      "SISTEMAS OPERATIVOS (P)",
+      "ALGORITMOS Y ESTRUCTURAS DE DATOS (P)",
+      "REDES Y COMUNICACIÓN DE DATOS 1 (P)",
+      "ADMINISTRACIÓN Y ORGANIZACIÓN DE EMPRESAS (V)",
+      "PROCESOS PARA INGENIERÍA (P)",
+      "HERRAMIENTAS INFORMÁTICAS PARA LA TOMA DE DECISIONES (V)"
+    ]
+  },
+  {
+    "ciclo": "06",
+    "spanText": "ciclo",
+    "listaTextos": [
+      "GESTIÓN DEL CONOCIMIENTO (P)",
+      "INVESTIGACIÓN OPERATIVA (P)",
+      "ANÁLISIS Y DISEÑO DE SISTEMAS DE INFORMACIÓN (P)",
+      "DESARROLLO WEB INTEGRADO (P)",
+      "CURSO INTEGRADOR 1: SISTEMAS - SOFTWARE (P)",
+      "REDES Y COMUNICACIÓN DE DATOS 2 (V)"
+    ]
+  },
+  {
+    "ciclo": "07",
+    "spanText": "ciclo",
+    "listaTextos": [
+      "INNOVACIÓN Y TRANSFORMACIÓN DIGITAL (P)",
+      "DISEÑO Y ARQUITECTURA DE SOFTWARE (P)",
+      "SISTEMAS DISTRIBUIDOS (P)",
+      "SEGURIDAD INFORMÁTICA (V)",
+      "GESTIÓN DE LA CADENA DE VALOR (P)",
+      "ELECTIVO 1 (V)"
+    ]
+  },
+  {
+    "ciclo": "08",
+    "spanText": "ciclo",
+    "listaTextos": [
+      "PLANEAMIENTO ESTRATÉGICO DE LAS TICs (P)",
+      "DISEÑO E IMPLEMENTACIÓN DE ARQUITECTURA EMPRESARIAL (P)",
+      "CALIDAD DE SOFTWARE (P)",
+      "GESTIÓN DE RIESGOS INFORMÁTICOS (P)",
+      "INTELIGENCIA DE NEGOCIOS (P)",
+      "HERRAMIENTAS PARA LA COMUNICACIÓN EFECTIVA (P)"
+    ]
+  },
+  {
+    "ciclo": "09",
+    "spanText": "ciclo",
+    "listaTextos": [
+      "CURSO INTEGRADOR 2: SISTEMAS (P)",
+      "ARQUITECTURA ORIENTADA AL SERVICIO (P)",
+      "FORMACIÓN PARA LA EMPLEABILIDAD (P)",
+      "FORMACION PARA LA INVESTIGACIÓN - SISTEMAS (P)",
+      "CALIDAD DE SERVICIO DE TI (P)",
+      "GESTIÓN DE LA CONTINUIDAD DEL NEGOCIO (P)"
+    ]
+  },
+  {
+    "ciclo": "10",
+    "spanText": "ciclo",
+    "listaTextos": [
+      "TALLER DE INVESTIGACIÓN - SISTEMAS (P)",
+      "GOBIERNO DE TIC (P)",
+      "ÉTICA PROFESIONAL (P)",
+      "GESTIÓN DE DATA CENTER (P)",
+      "AUDITORÍA DE SISTEMAS INFORMÁTICOS (P)",
+      "GESTIÓN DE PROYECTOS (V)"
+    ]
+  },
+  {
+    "spanText": "Campo no válido"
+  },
+  {}
+]
