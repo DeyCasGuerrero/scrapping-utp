@@ -10,11 +10,9 @@ async function scrapeData() {
     await page.goto('https://www.utp.edu.pe/web/pregrado/facultad-de-ingenieria/ingenieria-de-sistemas-e-informatica/malla-curricular');
 
     const data = await page.evaluate(() => {
-        // Encuentra todos los divs independientes dentro del div general
         const divs = document.querySelectorAll('.col-content');
         const scrapedData = [];
-    
-        // Verifica si se encontraron divs
+        
         if (divs.length > 0) {
             divs.forEach((div) => {
                 const cicloDiv = div.querySelector('.field-name-ciclo');
